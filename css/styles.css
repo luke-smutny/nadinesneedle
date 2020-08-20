@@ -55,6 +55,18 @@
   padding: 10px;
 }
 
+.portfolio-head{
+  color: var(--purple);
+  font-style: normal !important;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.portfolio-item-caption-content{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+  text-decoration: underline;
+}
+
 
 :root {
   --blue: #007bff;
@@ -205,12 +217,13 @@ sup {
 }
 
 a {
-  color: #d7d1ff;
+  color: blueviolet;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: blueviolet;
+  /* color: blueviolet;#d7d1ff */
+  color: #d7d1ff;
   text-decoration: underline;
 }
 
