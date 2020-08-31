@@ -11,6 +11,11 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+.header-logo{
+  width: auto;
+  height: 55px;
+}
+
 
 .border-image{
   background-image: url("../assets/img/lace-border-white.png"), url("../assets/img/lace-border-white-rot.png");
