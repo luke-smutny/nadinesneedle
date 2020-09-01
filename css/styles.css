@@ -16,6 +16,18 @@
   height: 55px;
 }
 
+.head-picture{
+  background: url(assets/img/portfolio/heirloom.JPG) !important;
+}
+
+.border-image2{
+  background-image: url("../assets/img/lace-border-white.png"), url("../assets/img/lace-border-white-rot.png"), url("../assets/img/portfolio/heirloom.jpg");
+  background-position: left bottom 0px, left top 0px, center;
+  background-repeat: repeat-x, repeat-x, no-repeat;
+  background-size: auto, auto, cover;
+  
+  
+}
 
 .border-image{
   background-image: url("../assets/img/lace-border-white.png"), url("../assets/img/lace-border-white-rot.png");
@@ -10203,11 +10215,14 @@ h3 {
   padding-bottom: 6rem;
 }
 .masthead .masthead-heading {
+  margin-top: 400px;
   font-size: 2.75rem;
   line-height: 2.75rem;
+  color: black;
 }
 .masthead .masthead-subheading {
   font-size: 1.25rem;
+  color: black;
 }
 .masthead .masthead-avatar {
   width: 15rem;
