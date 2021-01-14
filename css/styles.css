@@ -20,14 +20,7 @@
   background: url(assets/img/portfolio/heirloom.JPG) !important;
 }
 
-.border-image2{
-  background-image: url("../assets/img/lace-border-white.png"), url("../assets/img/lace-border-white-rot.png"), url("../assets/img/portfolio/heirloom.jpg");
-  background-position: left bottom 0px, left top 0px, center;
-  background-repeat: repeat-x, repeat-x, no-repeat;
-  background-size: auto, auto, cover;
-  
-  
-}
+
 
 .border-image{
   background-image: url("../assets/img/lace-border-white.png"), url("../assets/img/lace-border-white-rot.png");
@@ -36,16 +29,21 @@
   
 }
 
+.border-image-head{
+  background-image: url("../assets/img/lace-border-white.png"), url("../assets/img/lace-border-white-rot.png"), url("../assets/img/HeaderCover3.jpg");
+  background-position: left bottom 0px, left top 0px;
+  background-repeat: repeat-x, repeat-x;
+  background-size: 100px, 100px, cover;
+}
+
 .border-image-top{
   background-image: url("../assets/img/lace-border-white-rot.png");
   background-position: right top 0px;
   background-repeat: repeat-x;
 }
 
-.border-image-bottom{
-  background-image: url("..assets/img/lace-border-white.png");
-  background-position: left bottom 0px;
-  background-repeat: repeat-x;
+.title-font{
+  font-family: 'Fraunces', serif;
 }
 
 
@@ -76,11 +74,13 @@
   color: var(--purple);
   font-style: normal !important;
   font-weight: bold;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  */
+  font-family: 'Fraunces', serif !important;
 }
 
 .portfolio-item-caption-content{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important; */
+  font-family: 'Fraunces', serif;
   text-decoration: underline;
 }
 
@@ -126,7 +126,8 @@
 
 html {
   /* font-family: sans-serif; */
-  font-family: lucida;
+  /* font-family: lucida; */
+  font-family: 'Fraunces', serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -138,7 +139,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  font-family: 'Fraunces', serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -321,7 +323,8 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: inherit;
+  /* font-family: inherit; */
+  font-family: 'Fraunces', serif;
   font-size: inherit;
   line-height: inherit;
 }
@@ -439,7 +442,8 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  font-family: 'Fraunces', serif;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -5665,7 +5669,8 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  font-family: 'Fraunces', serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -5767,7 +5772,8 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  font-family: 'Fraunces', serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -9750,7 +9756,8 @@ button.bg-dark:focus {
 }
 
 .text-monospace {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+  font-family: 'Fraunces', serif;
+  /* font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important; */
 }
 
 .text-justify {
@@ -10154,7 +10161,8 @@ h3 {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Fraunces', serif;
+  /* font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
   font-weight: 700;
 }
 #mainNav .navbar-brand {
