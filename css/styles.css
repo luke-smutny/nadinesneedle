@@ -30,7 +30,7 @@
 }
 
 .border-image-head{
-  background-image: url("../assets/img/lace-border-white.png"), url("../assets/img/lace-border-white-rot.png"), url("../assets/img/HeaderCover3.jpg");
+  background-image: url("../assets/img/lace-border-white.png"), url("../assets/img/lace-border-white-rot.png"), url("../assets/img/HeaderCover3-min.jpg");
   background-position: left bottom 0px, left top 0px;
   background-repeat: repeat-x, repeat-x;
   background-size: 100px, 100px, cover;
